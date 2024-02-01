@@ -5,7 +5,7 @@ let drawing = false;
 
 // FunciÃ³n para cargar el modelo
 async function loadModel() {
-    model = await tf.loadLayersModel('https://drive.google.com/drive/folders/1G0w9UH5jOut99quqG0O3Ns0fnZyHNWCW?usp=drive_link');
+    model = await tf.loadLayersModel('https://github.com/DARS1198/IA2-HTML');
     console.log("Modelo cargado.");
 }
 
